@@ -60,3 +60,6 @@ sudo add-apt-repository ppa:mc3man/mpv-tests
 sudo apt update
 sudo apt-get install mpv
 
+echo "Installing cmake"
+sudo apt-get -y install cmake
+echo "Installed cmake"
