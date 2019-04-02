@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Generating ssh key"
-ssh-keygen -t rsa -b 4096 -C "tanmoydas1997@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "Youremail@here.com"
 
 echo "Starting ssh-agent in the background"
 eval "$(ssh-agent -s)"
