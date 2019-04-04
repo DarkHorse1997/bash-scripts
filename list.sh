@@ -63,3 +63,9 @@ sudo apt-get install mpv
 echo "Installing cmake"
 sudo apt-get -y install cmake
 echo "Installed cmake"
+
+echo "Installing Handbrake"
+sudo add-apt-repository ppa:stebbins/handbrake-releases
+sudo apt-get update
+sudo apt-get install handbrake-cli handbrake-gtk
+echo "Installed Handbrake"
